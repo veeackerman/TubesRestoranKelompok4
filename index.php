@@ -3,7 +3,7 @@
   require_once 'includes/header.php';
 ?>
 
-
+  <br>
     <h1 class=text-center >Table Reservation </h1>
   <br>
   <br>
