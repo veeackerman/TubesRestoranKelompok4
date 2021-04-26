@@ -2,14 +2,13 @@
   $title = 'Table Reservation';
   require_once 'includes/header.php';
 ?>
-
-  <div class="p-3 mb-2 bg-dark text-white">
-    <h1 class=text-center >Table Reservation </h1>
+  <br><br>
+  <div class="p-3 mb-2 bg-transparent text-white">
+    <h1 class="text-center fw-bold">TABLE RESERVATION </h1>
   </div>
   <br>
   <br>
-  <br>
-  <br>
+
     <div class="container">
   <div class="row">
     <div class="col-sm">
