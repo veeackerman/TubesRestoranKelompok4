@@ -1,4 +1,3 @@
-    <br>
     <div class="text-center">
     <div id="footer">
         <?php echo 'created by kelompok 1';?>
