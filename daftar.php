@@ -2,6 +2,7 @@
   $title = 'Table Reservation';
   require_once 'includes/header.php';
 ?>
+
 <br><br>
 <h1 class="text-center fw-bold bayanganteks">SIGN UP</h1>
 
@@ -27,10 +28,13 @@
             
                 <label for="email" class="form-label">Password</label>
                 <input id="email" class="form-control mb-4" type="password" aria-label="default input example"> 
-
+                
+                <form method="get" action="terdaftar.php">
                 <div class="mb-1 d-grid gap-2 mx-auto">
                     <button type="submit" class="btn btn btn-warning">Daftar</button>
                 </div>
+                </form>
+
             </div>
             </div>
         </div>
