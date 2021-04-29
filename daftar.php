@@ -14,24 +14,24 @@
         <div class="container">
             <div class="row">
             <div class="col">
+            <form method="post" action="terdaftar.php">
                 <label for="namadepan" class="form-label">Nama depan</label>
-                <input id="namadepan" class="form-control mb-3" type="text" aria-label="default input example">
+                <input name="namadepan" class="form-control mb-3" type="text" aria-label="default input example">
 
                 <label for="namabelakang" class="form-label">Nama belakang</label>
-                <input id="namabelakang" class="form-control mb-3" type="text" aria-label="default input example">
+                <input name="namabelakang" class="form-control mb-3" type="text" aria-label="default input example">
 
                 <label for="email" class="form-label">Email</label>
-                <input id="email" class="form-control mb-3" type="email" placeholder="example@example.com" aria-label="default input example">
+                <input name="email" class="form-control mb-3" type="email" placeholder="example@example.com" aria-label="default input example">
 
                 <label for="telepon" class="form-label">Nomor hp</label>
-                <input id="telepon" class="form-control mb-3" type="tel"placeholder="08XX XXXX XXXX" aria-label="default input example">
+                <input name="telepon" class="form-control mb-3" type="tel"placeholder="08XX XXXX XXXX" aria-label="default input example">
             
-                <label for="email" class="form-label">Password</label>
-                <input id="email" class="form-control mb-4" type="password" aria-label="default input example"> 
+                <label for="password" class="form-label">Password</label>
+                <input name="password" class="form-control mb-4" type="password" aria-label="default input example"> 
                 
-                <form method="get" action="terdaftar.php">
                 <div class="mb-1 d-grid gap-2 mx-auto">
-                    <button type="submit" class="btn btn btn-warning">Daftar</button>
+                    <button name="daftar" type="submit" class="btn btn btn-warning">Daftar</button>
                 </div>
                 </form>
 
